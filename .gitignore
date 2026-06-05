@@ -1,0 +1,22 @@
+# ── API Keys & Secrets ──
+.env
+*.env.local
+*.env.production
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.virtualenvs/
+*.egg-info/
+dist/
+build/
+
+# ── Generated images (if IMAGE_SAVE_DIR is set in workspace) ──
+gen_*.png
+gen_*.jpg
+
+# ── OS ──
+.DS_Store
+Thumbs.db
