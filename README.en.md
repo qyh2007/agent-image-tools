@@ -62,23 +62,23 @@ With just a few steps, your Claude Code can "see" image content and "draw" what 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    Claude Code                       │
-│                                                      │
+│                    Claude Code                      │
+│                                                     │
 │   ┌──────────────┐      ┌────────────────────────┐  │
-│   │  SKILL.md     │◄──── │  /image-tools invoked   │  │
-│   │  (behavior)   │      │  (on demand)            │  │
+│   │  SKILL.md    │◄────│  /image-tools invoked   │  │
+│   │  (behavior)  │     │  (on demand)            │  │
 │   └──────┬───────┘      └────────────────────────┘  │
-│          │ normalized tool selection + prompt const.  │
-│          ▼                                            │
-│   ┌─────────────────────────────────────────────┐    │
-│   │   MCP Server (server.py)                     │    │
-│   │                                              │    │
-│   │   analyze_image()    generate_image()        │    │
-│   │       │                   │                  │    │
-│   │       ▼                   ▼                  │    │
-│   │   SiliconFlow API     Agnes AI API           │    │
-│   │   (Vision VLM)        (Image Gen)            │    │
-│   └─────────────────────────────────────────────┘    │
+│          │ normalized tool selection + prompt const.│
+│          ▼                                          │
+│   ┌─────────────────────────────────────────────┐   │
+│   │   MCP Server (server.py)                    │   │
+│   │                                             │   │
+│   │   analyze_image()    generate_image()       │   │
+│   │       │                   │                 │   │
+│   │       ▼                   ▼                 │   │
+│   │   SiliconFlow API     Agnes AI API          │   │
+│   │   (Vision VLM)        (Image Gen)           │   │
+│   └─────────────────────────────────────────────┘   │
 └─────────────────────────────────────────────────────┘
 ```
 
