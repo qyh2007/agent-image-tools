@@ -147,8 +147,8 @@ Skill 的 Prompt Construction Rule 是**参考框架而非铁律** —— 理解
 ### 第一步：获取项目
 
 ```bash
-git clone https://github.com/qyh2007/image-tools.git
-cd image-tools
+git clone https://github.com/qyh2007/agent-image-tools.git
+cd agent-image-tools
 ```
 
 ### 第二步：安装 MCP Server
@@ -195,13 +195,6 @@ bash mcp-server/setup/install.sh
 SILICONFLOW_API_KEY=sk-your-siliconflow-api-key-here
 AGNES_API_KEY=sk-your-agnes-api-key-here
 ```
-
-API Key 获取地址：
-
-| 服务              | 用途   | 注册地址                                  |
-| --------------- | ---- | ------------------------------------- |
-| **SiliconFlow** | 图片识别 | https://cloud.siliconflow.cn → API 密钥 |
-| **Agnes AI**    | 图片生成 | https://apihub.agnes-ai.com → API 密钥  |
 
 ### 第四步：注册到 Claude Code
 

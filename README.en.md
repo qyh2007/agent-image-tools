@@ -147,8 +147,8 @@ The Skill's Prompt Construction Rule is a **reference framework, not dogma** —
 ### Step 1: Get the Project
 
 ```bash
-git clone https://github.com/qyh2007/image-tools.git
-cd image-tools
+git clone https://github.com/qyh2007/agent-image-tools.git
+cd agent-image-tools
 ```
 
 ### Step 2: Install MCP Server
@@ -195,13 +195,6 @@ Edit `mcp-server/.env` and fill in your real API keys:
 SILICONFLOW_API_KEY=sk-your-siliconflow-api-key-here
 AGNES_API_KEY=sk-your-agnes-api-key-here
 ```
-
-Where to get API keys:
-
-| Service | Purpose | Sign Up |
-|---------|---------|---------|
-| **SiliconFlow** | Image recognition | https://cloud.siliconflow.cn → API Keys |
-| **Agnes AI** | Image generation | https://apihub.agnes-ai.com → API Keys |
 
 ### Step 4: Register with Claude Code
 
